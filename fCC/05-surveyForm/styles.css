@@ -1,0 +1,27 @@
+.container {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-weight: 700;
+  color: #070770;
+}
+
+#title {
+  font-weight: bolder;
+}
+
+#description {
+  font-style: italic;
+}
+
+input:required {
+  width: 60%;
+}
+
+#number-label {
+  padding-left: 0.75rem;
+}

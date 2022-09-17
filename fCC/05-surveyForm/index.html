@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nice-Survey</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Eric's Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+      <form action="" id="survey-form">
+        <div>
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class=""
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div>
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class=""
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div>
+          <label id="number-label" for="number">Age</label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="1"
+            max="99"
+            class=""
+            placeholder="Enter your age"
+            required
+          />
+        </div>
+        <div>
+          <p>Which option best describes your current role?</p>
+          <select name="" id="dropdown">
+            <option value="">Select one</option>
+            <option value="">student</option>
+            <option value="">job</option>
+          </select>
+        </div>
+        <div>
+          <p>Would you like to recommend this article to friends?</p>
+          <label for="">
+            <input
+              type="radio"
+              name="user-recommend"
+              value="definitely"
+              id=""
+              checked
+            />
+            "Definitely"
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="user-recommend"
+              value="absolutely"
+              id=""
+            />
+            "absolutely"
+          </label>
+        </div>
+        <div>
+          <p>What would you like to do in your spare time?</p>
+          <label for="">
+            <input type="checkbox" value="Sporting" />
+            "Sporting"
+          </label>
+          <label for="">
+            <input type="checkbox" value="traveling" />
+            "traveling"
+          </label>
+          <label for="">
+            <input type="checkbox" value="Coding" />
+            "Coding!!"
+          </label>
+        </div>
+        <div>
+          <p>Any comments?</p>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="plz enter your comment here"
+          ></textarea>
+        </div>
+        <div><input type="submit" id="submit" /></div>
+      </form>
+    </div>
+  </body>
+</html>
