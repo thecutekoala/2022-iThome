@@ -25,3 +25,7 @@ input:required {
 #number-label {
   padding-left: 0.75rem;
 }
+
+#submit {
+  margin-bottom: 20px;
+}
