@@ -1,0 +1,207 @@
+@media (prefers-reduced-motion: no-preference) {
+	* {
+		scroll-behavior: smooth;
+	}
+}
+
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #444;
+	scroll-behavior: smooth;
+	color: aliceblue;
+	font-family: 'Lato', 'Noto Sans TC', sans-serif;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	margin-right: 2rem;
+}
+
+#header,
+#footer {
+	background: #222;
+	padding: 2rem;
+}
+
+#header h1 a img {
+	width: 8rem
+}
+
+#header,
+#form,
+.nav-list,
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	padding: 1.875rem;
+}
+
+.hr {
+	border-bottom: 4px solid paleturquoise;
+}
+
+.nav-list {
+	gap: 1.875rem;
+}
+
+.nav-link {
+	font-size: 2rem;
+	color: aliceblue;
+}
+
+.nav-list li {
+	transition: ease-in-out .2s;
+	padding-bottom: 6px;
+	border-bottom: 4px solid transparent
+}
+
+.nav-list li:hover {
+	transform: scale(1.2);
+	border-bottom: 4px solid aliceblue;
+}
+
+.container {
+	position: relative
+}
+
+#form {
+	font-size: 1.5rem;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#email {
+	width: 30vw;
+	padding: .5rem;
+	font-size: 1.5rem;
+}
+
+#submit {
+	font-size: 1.5rem;
+	cursor: pointer;
+	background-color: #666;
+	width: 20vw;
+	color: aliceblue;
+	margin-top: -2rem;
+}
+
+#submit:hover {
+	border: 2px solid aliceblue;
+}
+
+#submit:active {
+	border: 2px solid aliceblue;
+}
+
+#video {
+	border: 6px solid aliceblue;
+	border-radius: 3px;
+	margin: 0 1rem .5rem;
+}
+
+.event ul li {
+	line-height: 1.5rem;
+}
+
+.event ul li h3 {
+	padding: 1rem 0 .5rem 2rem;
+}
+
+.event ul li p {
+	padding: 0 4rem 1rem;
+}
+
+.faq {
+	padding-left: 1rem;
+}
+
+.answer {
+	border: 2px solid aliceblue;
+	border-radius: 6px;
+	padding: 1rem;
+	margin: 1rem 1rem 2rem;
+}
+
+.toTop {
+	width: 50px;
+	height: 50px;
+	border: 6px solid aliceblue;
+	border-radius: 50%;
+	position: fixed;
+	right: 60px;
+	bottom: 100px;
+	text-align: center;
+	line-height: 50px;
+	opacity: .5;
+}
+
+.top-link {
+	color: aliceblue;
+	text-align: center;
+
+}
+
+.material-icons {
+	transform: scale(1.7);
+}
+
+#footer,
+#footer div {
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer img {
+	height: 2rem;
+	padding-left: .5rem;
+}
+
+.cobyright {
+	font-size: 10px;
+}
+
+@media only screen and (max-width: 512px) {
+
+	html {
+		font-size: 12px;
+	}
+
+	section {
+		padding: 10px 0;
+	}
+
+	.nav-link {
+		font-size: 1.2rem;
+	}
+
+	.toTop {
+		right: 20px;
+		bottom: 50px;
+	}
+}
