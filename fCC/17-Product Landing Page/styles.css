@@ -46,7 +46,16 @@ img {
 }
 
 #header h1 a img {
-	width: 8rem
+	height: 5rem;
+	filter: invert(100%);
+}
+
+#header h1 {
+	transition: ease-in-out .2s;
+}
+
+#header h1:hover {
+	transform: scale(1.2);
 }
 
 #header,
@@ -117,6 +126,7 @@ section {
 
 #submit:active {
 	border: 2px solid aliceblue;
+	background-color: #222;
 }
 
 #video {

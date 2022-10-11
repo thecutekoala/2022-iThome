@@ -25,6 +25,7 @@ body {
 #white-hat {
   width: 0;
   height: 0;
+  border: 2px solid;
   border-style: solid;
   border-width: 0 120px 140px 180px;
   border-top-color: transparent;
