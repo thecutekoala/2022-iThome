@@ -6,20 +6,99 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Personal Portfolio Webpage</title>
+
+	<!-- google fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+	<!-- styles -->
 	<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-	<header>
-		<nav></nav>
-	</header>
-	<section id="welcome-section" class="welcome-section"></section>
-	<section id="projects" class="projects-section">
-		<h2 class="projects-section-header">These are some of my projects</h2>
-		<div class="project-grid"></div>
-	</section>
-	<section></section>
-	<footer></footer>
+	<div class="container">
+
+		<!-- header -->
+
+		<header class="header">
+			<nav id="navbar">
+				<ul class="nav-list">
+					<li><a href="#welcome-section">About</a> </li>
+					<li><a href="#projects">Work</a> </li>
+					<li><a href="#contact">Contact</a> </li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- welcome section -->
+
+		<div class="welcome-section-background" id="welcome-section">
+			<section class="welcome-section section">
+				<h1 class="main-title">Hi I'm Eric.</h1>
+				<p>a beginner web developer</p>
+			</section>
+		</div>
+
+
+		<!-- projects section -->
+
+		<div class="projects-section-backgroud" id="projects">
+			<section class="projects-section section">
+				<h2 class="projects-section-header">These are some of my projects</h2>
+				<div class="projects-grid">
+					<a href="https://codepen.io/Eric_Shen/pen/NWyxZww" class="project" target="_blank">
+						<img src="./album/1665594336898.jpg" alt="Todolist" class="project-img">
+						<p class="project-tile">Todolist</p>
+					</a>
+					<a href="https://codepen.io/Eric_Shen/pen/ExLdxab" class="project" target="_blank">
+						<img src="./album/1665594428972.jpg" alt="Landing-Page" class="project-img">
+						<p class="project-tile">Landing-Page</p>
+					</a>
+					<a href="https://codepen.io/Eric_Shen/pen/zYjyrVb" class="project" target="_blank">
+						<img src="./album/1665594568394.jpg" alt="3D-Cube" class="project-img">
+						<p class="project-tile">3D-Cube</p>
+					</a>
+				</div>
+			</section>
+		</div>
+
+		<!-- contact section -->
+
+		<div class="contact-section-background" id="contact">
+			<section class="contact-section section">
+				<h2 class="contact-title">Let's coding together !!!</h2>
+				<ul class="contact-links">
+					<li>
+						<a href="https://github.com/thecutekoala" class="contact-details">
+							Github
+						</a>
+					</li>
+					<li>
+						<a href="mailto:thecutekoala.gmail.com" class="contact-details">
+							Mail
+						</a>
+					</li>
+					<li>
+						<a href="https://ithelp.ithome.com.tw/users/20148082" class="contact-details">
+							ithelp
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+
+		<!-- footer -->
+
+		<footer class="footer">
+			<p>This is true portfolio. All the projects and contact details given are real.
+				<i class="fab fa-free-code-camp"></i>
+			</p>
+			<p>Created for freecodecamp & 2022.ithom</p>
+		</footer>
+	</div>
+
 </body>
 
 </html>
